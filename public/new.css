@@ -1,0 +1,29 @@
+.gradientAnimationLowerLeft {
+    background: linear-gradient(225deg, rgb(134, 138, 140) 0.00%,rgb(40, 38, 38) 51.00%,rgb(0, 0, 0) 92.00%);
+
+    -webkit-animation: lowerLeftGradientAnim 18s ease infinite;
+    -moz-animation: lowerLeftGradientAnim 18s ease infinite;
+    -o-animation: lowerLeftGradientAnim 18s ease infinite;
+    animation: lowerLeftGradientAnim 18s ease infinite;
+}
+
+@-webkit-keyframes lowerLeftGradientAnim {
+    0%{background-position:77% 0%}
+    50%{background-position:24% 100%}
+    100%{background-position:77% 0%}
+}
+@-moz-keyframes lowerLeftGradientAnim {
+    0%{background-position:77% 0%}
+    50%{background-position:24% 100%}
+    100%{background-position:77% 0%}
+}
+@-o-keyframes lowerLeftGradientAnim {
+    0%{background-position:77% 0%}
+    50%{background-position:24% 100%}
+    100%{background-position:77% 0%}
+}
+@keyframes lowerLeftGradientAnim {
+    0%{background-position:77% 0%}
+    50%{background-position:24% 100%}
+    100%{background-position:77% 0%}
+}
